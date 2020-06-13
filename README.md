@@ -21,6 +21,7 @@ Deploying deep learning techniques to analyse data from past fire alarms, we can
 ## The architecture
 
 ## Long Description 
+(DESCRIPTION.md)
 
 ## Built with
 
