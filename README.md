@@ -24,7 +24,7 @@ Team members:
 * Jasper Ong
 
 ### What's the problem?
-* False alarms are a major inefficiency to any fire alarm system. When a fire alarm is falsely triggered, people may call in to SCDF to report a non-existent fire, leading to wastage of resources and potentially curtailing SCDF's ability to target real threats. Frequent false alarms also lead to a loss of confidence in the system, leading to slow response in cases of actual fire. 
+* False alarms are a major inefficiency to any fire alarm system. When a fire alarm is falsely triggered, people may call in to SCDF to report non-existent fires, leading to wastage of resources and potentially curtailing SCDF's ability to target real threats. Frequent false alarms also lead to a loss of confidence in the system, leading to slow response in cases of actual fire. 
 
 * It is important to quickly evaluate whether an alarm is a true positive or a false positive so that SCDF can respond to situations appropriately. 
 
