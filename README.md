@@ -16,7 +16,7 @@ False alarms can be a major hazard to any fire alarm system since they lead to a
 Internet-of-things (IOT) fire alarms can gradually phase out the usage of old fire alarm systems so that data can be collected and processed to improve existing fire alarm systems.  
 
 ### The idea
-
+Deploying deep learning techniques to analyse data from past fire alarms, we can more accurately judge the severity of fires given factors such as (…). This will allow SCDF to make more informed decisions when allocating resources.  
 
 ## The architecture
 
