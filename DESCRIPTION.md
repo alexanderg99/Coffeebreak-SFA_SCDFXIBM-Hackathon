@@ -12,4 +12,4 @@
 
 
 
-## Recommended Resources to be deployed
+## Recommended Resources to be Deployed
