@@ -51,6 +51,8 @@ Deploying deep learning techniques to analyse data from past fire alarms, we can
 
 ## Long description
 
+[More detail is available here](DESCRIPTION.md)
+
 ## Getting started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
