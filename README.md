@@ -28,7 +28,7 @@ Deploying deep learning techniques to analyse data from past fire alarms, we can
 
 ## The architecture
 
-![architecture.png](https://github.com/jasperosy/Coffeebreak-Placeholder_SCDFXIBM/architecture.png)
+![architecture.png](https://github.com/jasperosy/Coffeebreak-Placeholder_SCDFXIBM/blob/master/architecture.png)
 
 1. When the fire alarm rings, the sensors in the fire alarm will record environmental data, storing it in a backend database. 
 2. Severity rating is determined by performing classification on environmental data. 
