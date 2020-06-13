@@ -5,6 +5,7 @@
 1. [Short description](#short-description)
 1. [The architecture](#the-architecture)
 1. [Built with](#built-with)
+1. [Contributing](#contributing)
 
 ## Short description
 
@@ -20,3 +21,6 @@ Internet-of-things (IOT) fire alarms can gradually phase out the usage of old fi
 ## The architecture
 
 ## Built with
+
+## Contributing
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
