@@ -24,18 +24,18 @@ Team members:
 * Jasper Ong
 
 ### What's the problem?
-* False alarms can be a major hazard to any fire alarm system since they lead to a loss of confidence in the system. It is important that any alarm from the system be treated as an alarm of fire until it can be proved to be false, rather than being treated as false until proven to be a fire. 
+* False alarms are a major inefficiency to any fire alarm system. When a fire alarm is falsely triggered, people may call in to SCDF to report a non-existent fire, leading to wastage of resources and potentially curtailing SCDF's ability to target real threats. Frequent false alarms also lead to a loss of confidence in the system, leading to slow response in cases of actual fire. 
 
-* Wastage of resources due to unwarranted allocation to the non-existent threats, curtailing SCDF’s ability to target real threats. 
+* It is important to quickly evaluate whether an alarm is a true positive or a false positive so that SCDF can respond to situations appropriately. 
 
 ### How can technology help?
-* As part of the Smart Nation Sensor Platform initiative, there will be greater deployment of IoT and sensor technologies within the nation. These sensors include environmental ones to monitor air quality.   
+* As part of the Smart Nation Sensor Platform initiative, there will be greater deployment of IoT and sensor technologies within the nation. Existing sensors that monitor air quality already exist, and can be expanded further to better respond to potential fires.   
 
-* Internet-of-Things (IoT) technology can be installed into existing fire alarm systems for smarter detection of threats. These detection systems would be able to gather important data from the threat, allowing SCDF personnel to make informed decisions based on the ground situation and formulate strategic plans to fight the threat. 
+* Internet-of-Things (IoT) technology can be installed into existing fire alarm systems for smarter detection of threats. These detection systems would be able to gather important data, allowing SCDF personnel to make informed decisions based on the ground situation and formulate strategic plans to fight the threat. 
 
-* Using state-of-the-art artificial intelligence technology, like Computer Vision, we can better analyse datasets provided from the smart systems aforementioned, providing real-time support for SCDF personnel to swiftly act upon the danger with appropriate amount of resources while evacuating civilians safely from the threat in a timely and fashioned manner. 
+* Using state-of-the-art artificial intelligence technology, like neural networks and Computer Vision, we can better analyse data gathered from smart systems, providing real-time support for SCDF personnel to swiftly act upon the danger with appropriate amount of resources while evacuating civilians safely from the threat in a timely and fashioned manner. 
 
-* By using the limited resources in a targeted and efficient way, SCDF will be able to handle more situations in a given period of time. 
+* By using limited resources in a targeted and efficient way, SCDF will be able to handle more situations in a given period of time. 
 
 ### The idea
 Deploying deep learning techniques to analyse data from past fire alarms, we can more accurately judge the severity of fires given environmental factors and sensor data. This will allow SCDF to make more informed decisions when allocating resources.  
@@ -50,8 +50,6 @@ Deploying deep learning techniques to analyse data from past fire alarms, we can
 4. If a real fire has broken out, SCDF will be notified. Severity rating will be used to recommend an appropriate amount of resources that should be deployed to combat the emergency.  
 
 ## Long description
-
-[More detail is available here](DESCRIPTION.md)
 
 ## Getting started
 
@@ -70,7 +68,6 @@ python main.py
 ```
 
 ## Built with
-* [IBM Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio) - Computational resources and Jupyter Notebook IDE used
 
 ## Contributing
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
