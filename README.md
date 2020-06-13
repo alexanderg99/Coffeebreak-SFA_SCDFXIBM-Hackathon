@@ -18,10 +18,10 @@ Team name: Coffeebreak
 Team members: 
 
 * Alexander Gunawan
-* Vico Lee
-* Benjamin Lee
 * Aloysius Wang
+* Benjamin Lee
 * Jasper Ong
+* Vico Lee
 
 ### What's the problem?
 * False alarms are a major inefficiency to any fire alarm system. When a fire alarm is falsely triggered, people may call in to SCDF to report non-existent fires, leading to wastage of resources and potentially curtailing SCDF's ability to target real threats. Frequent false alarms also lead to a loss of confidence in the system, leading to slow response in cases of actual fire. 
