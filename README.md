@@ -24,21 +24,22 @@ Team members:
 * Vico Lee
 
 ### What's the problem?
-* False alarms are a major inefficiency to any fire alarm system. When a fire alarm is falsely triggered, people may call in to SCDF to report non-existent fires, leading to wastage of resources and potentially curtailing SCDF's ability to target real threats. Frequent false alarms also lead to a loss of confidence in the system, leading to slow response in cases of actual fire. 
-
-* It is important to quickly evaluate whether an alarm is a true positive or a false positive so that SCDF can respond to situations appropriately. 
+* False alarms can be a major hazard to any fire alarm system for two main reasons:
+  * Repeated false alarms reduce people’s trust in the sound-off system, reducing the sense of urgency during evacuation in life-threatening situations. 
+  * Wastage of resources due to unnecessary allocation to the non-existent threats, curtailing SCDF’s ability to target real threats. 
 
 ### How can technology help?
-* As part of the Smart Nation Sensor Platform initiative, there will be greater deployment of IoT and sensor technologies within the nation. Existing sensors that monitor air quality already exist, and can be expanded further to better respond to potential fires.   
+* Sensors imbued with Internet-of-Things (IoT) technology can be integrated into existing fire alarm systems for smarter detection of potential fires.    
 
-* Internet-of-Things (IoT) technology can be installed into existing fire alarm systems for smarter detection of threats. These detection systems would be able to gather important data, allowing SCDF personnel to make informed decisions based on the ground situation and formulate strategic plans to fight the threat. 
+* Using state-of-the-art technology including deep neural networks and computer vision, we are able to better analyse data collected from these smart alarms.
 
-* Using state-of-the-art artificial intelligence technology, like neural networks and Computer Vision, we can better analyse data gathered from smart systems, providing real-time support for SCDF personnel to swiftly act upon the danger with appropriate amount of resources while evacuating civilians safely from the threat in a timely and fashioned manner. 
+* Our proposed detection system gathers important data from past threats to make predictions. This allows SCDF personnel to make informed decisions and formulate strategic plans to fight potential threats. 
 
-* By using limited resources in a targeted and efficient way, SCDF will be able to handle more situations in a given period of time. 
+* By using limited resources in a targeted and efficient way, SCDF is able to handle more situations in a given period of time 
 
-### The idea
-Deploying deep learning techniques to analyse data from past fire alarms, we can more accurately judge the severity of fires given environmental factors and sensor data. This will allow SCDF to make more informed decisions when allocating resources.  
+### Our proposed solution
+
+Deploying deep learning algorithms to analyse data from past fire alarms, we can more accurately judge the severity of fires given factors such as CO levels, smoke density, humidity and location. This will allow SCDF to make more informed decisions when allocating resources. 
 
 ## The architecture
 
