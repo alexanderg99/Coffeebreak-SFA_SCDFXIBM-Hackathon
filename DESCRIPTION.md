@@ -12,7 +12,7 @@
 
 ## Introduction
 
-Since 2018, smoke detectors have become mandatory in all residences. Given the inability of most smoke detectors to distinguish between smoke from real fires and smoke from innocuous sources, safeguards must be put in place to reduce false alarms. False alarms not only erode public trust in fire safety systems, but also cause precious resources to be wasted to combat non-existent threats.  
+Since 2018, smoke detectors have become mandatory in all residences. Given the inability of most smoke detectors to distinguish between smoke from real fires and smoke from innocuous sources, safeguards must be put in place to reduce false alarms. False alarms not only erode public trust in fire safety systems, but also cause precious resources to be wasted on non-existent threats.  
 
 In order for fire alarms to be effective, people need to be able to trust what they hear. As long as people believe fire alarm system to be reliable, they will react to alarms with urgency and execute fire emergency protocols with haste.  
 
@@ -20,13 +20,13 @@ In view of this, we propose using IoT in conjunction with artificial intelligenc
 
 ## Summary of Approach
 
-Internet-of-Things (IoT) fire alarms can be gradually introduced to phase out old fire alarm systems. These IoT fire alarms will include sensors that capture meaningful data, as detailed below. The collected data can then be used to train a neural network model for fire detection. On top of that, if visuals of the site of incident are available, image classification can be employed to detect the presence of a fire more confidently. This can be done using Convolutional Neural Networks (CNN) to extract features from the images obtained by visual feeds.  
+Internet-of-Things (IoT) fire alarms can be gradually introduced to phase out old fire alarm systems. These IoT fire alarms will include sensors that capture meaningful data, which we detail below. The collected data can then be used to train a neural network model for fire detection. On top of that, if visuals of the site of incident are available, image classification can be employed to detect the presence of a fire more confidently. This can be done using Convolutional Neural Networks (CNN) to extract features from the images obtained by visual feeds.  
 
 In order to prevent our model from making the wrong classification, we propose an N-gram like model to account for changes in the situation with respect to time. An N-gram like model would mean that probability is evaluated repeatedly, hence greatly reducing the possibility of wrong classifications. 
 
-Apart from fire detection, gauging the severity of the fire is crucial as well. As we have finite resources and manpower for firefighting and lifesaving, it is imperative to use the appropriate amount of resources for any given situation. We propose the following idea to maximise the efficiency of allocation of resources. 
+Apart from fire detection, gauging the severity of the fire is crucial as well. As we have finite resources and manpower for firefighting and lifesaving, it is imperative to use the appropriate amount of resources for any given situation. 
 
-With data gathered from IoT sensors and selected environmental factors such as density of human traffic and location, we can use a neural network to help predict the level of threat posed by a fire while also mapping a safe evacuation route to allow victims to escape safely from the incident site. 
+We propose the following idea to maximise the efficiency of allocation of resources. With data gathered from IoT sensors and selected environmental factors such as density of human traffic and location, we can use a neural network to help predict the level of threat posed by a fire while also mapping a safe evacuation route to allow victims to escape safely from the incident site. 
 
 All in all, early and accurate detection of real fires play a pivotal role in the optimal deployment of resources and in minimising the potential loss of lives and infrastructure. 
 
@@ -38,7 +38,7 @@ To create a system that can be used anywhere, we consider the possibility of usi
 
 Before moving on to the details of our classifier, we would like to take a moment to explain why a TP/FP classifier is needed. Depending on the type of fire alarm installed, different systems will be vulnerable to different types of false positives. For instance, light-based smoke detectors will not be able to distinguish whether the smoke came from a fire, cigarette or incense, thus triggering indiscriminately under all 3 circumstances, while heat detectors can be triggered by innocuous activities such as cooking. The point of having multiple inputs is so that we can discover what combinations of these inputs can rule out certain harmless situations. This allows us to produce an accuracy probability estimate of whether a given set of inputs corresponds to a real fire. Parameter tuning and feature testing will need to be done to strike a balance between cost of sensors and accuracy of classification. 
 
-In a situation without visuals, we can build a deep neural network to do classification, having a SoftMax layer as the output. In our output, TPs are represented by [1,0] and FPs are represented by [0,1], so the first entry in our output is the probability of being a TP, and the second entry in our output is the probability of being a FP, we then treat the situation as FP if it has a probability of <0.5. 
+In a situation without visuals, we can build a deep neural network to do classification, with a SoftMax layer as the output. In our output, TPs are represented by [1,0] and FPs are represented by [0,1], so the first entry in our output is the probability of being a TP, and the second entry in our output is the probability of being a FP, we then treat the situation as FP if it has a probability of <0.5. 
 
 The model is trained using binary-cross entropy as the loss function, and the specific structure of the model can be specified by an array. The model architecture can be customised as explained in the comments of tpfpclassifier.py. The reason we choose not to fix an architecture is because parameter tuning will need to be done to prevent over-fitting of the model. An example of what our program can generate is shown here:  
 
