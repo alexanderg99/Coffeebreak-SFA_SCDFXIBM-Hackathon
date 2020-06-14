@@ -43,8 +43,7 @@ Deploying deep learning algorithms to analyse data from past fire alarms, we can
 
 ## Video
 
-[![Watch the video](video.jpg)]
-(https://youtu.be/svXU00e7Pbs)
+[![Watch the video](video.jpg)](https://youtu.be/vOgCOoy_Bx0)
 
 ## The architecture
 
