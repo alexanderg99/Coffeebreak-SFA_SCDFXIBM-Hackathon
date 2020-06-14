@@ -60,7 +60,9 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 Things you will need before running our code.
 * Data-set
-* Python 3 (with tensorflow and numpy installed)
+* 64-Bit Python 3
+* Numpy
+* Tensorflow
 
 ### Installing
 
@@ -69,10 +71,12 @@ The codes provided are skeletal codes in the absence of a valid dataset. For mor
 ```bash
 git clone https://github.com/jasperosy/Coffeebreak-Placeholder_SCDFXIBM.git
 cd Coffeebreak-Placeholder_SCDFXIBM
+pip install -r requirements.txt
 python main.py
 ```
 
 ## Built with
+* [IBM Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio) - We used the computational resources available on Watson Studio.
 
 ## Contributing
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
