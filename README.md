@@ -59,7 +59,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 Things you will need before running our code.
-* Data-set
+* Dataset
 * 64-Bit Python 3
 * Numpy
 * Tensorflow
