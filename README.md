@@ -41,6 +41,11 @@ Team members:
 
 Deploying deep learning algorithms to analyse data from past fire alarms, we can more accurately judge the severity of fires given factors such as CO levels, smoke density, humidity and location. This will allow SCDF to make more informed decisions when allocating resources. 
 
+## Video
+
+![Watch the video](video.png)
+(https://youtu.be/svXU00e7Pbs)
+
 ## The architecture
 
 ![architecture.png](https://github.com/jasperosy/Coffeebreak-Placeholder_SCDFXIBM/blob/master/architecture.png)
