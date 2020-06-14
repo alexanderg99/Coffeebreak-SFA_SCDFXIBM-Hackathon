@@ -63,6 +63,9 @@ Things you will need before running our code.
 * Python 3 (with tensorflow and numpy installed)
 
 ### Installing
+
+**NOTE:**
+The codes provided are skeletal codes in the absence of a valid dataset. For more details on the dataset, [click here](DESCRIPTION.md)
 ```bash
 git clone https://github.com/jasperosy/Coffeebreak-Placeholder_SCDFXIBM.git
 cd Coffeebreak-Placeholder_SCDFXIBM
