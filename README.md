@@ -3,6 +3,7 @@
 ## Contents
 
 1. [Short description](#short-description)
+1. [Video](#video)
 1. [The architecture](#the-architecture)
 1. [Long description](#long-description)
 1. [Getting started](#getting-started)
